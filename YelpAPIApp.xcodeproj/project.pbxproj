@@ -11,6 +11,7 @@
 		17974BCA26DFB1BD005044A3 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17974BC926DFB1BD005044A3 /* LaunchView.swift */; };
 		17974BCC26DFB1C0005044A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17974BCB26DFB1C0005044A3 /* Assets.xcassets */; };
 		17974BCF26DFB1C0005044A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17974BCE26DFB1C0005044A3 /* Preview Assets.xcassets */; };
+		17974BDA26DFB2D9005044A3 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17974BD926DFB2D9005044A3 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		17974BCB26DFB1C0005044A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17974BCE26DFB1C0005044A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17974BD026DFB1C0005044A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17974BD926DFB2D9005044A3 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		17974BD826DFB20F005044A3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				17974BD926DFB2D9005044A3 /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			files = (
 				17974BCA26DFB1BD005044A3 /* LaunchView.swift in Sources */,
 				17974BC826DFB1BD005044A3 /* YelpAPIApp.swift in Sources */,
+				17974BDA26DFB2D9005044A3 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct YelpAPIApp: App {
     var body: some Scene {
         WindowGroup {
-            LaunchView()
+            LaunchView().environmentObject(contentModel())
         }
     }
 }

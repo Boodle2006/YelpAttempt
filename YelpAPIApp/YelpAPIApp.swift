@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct YelpAPIAppApp: App {
+struct YelpAPIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
         }
     }
 }
